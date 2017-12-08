@@ -1,84 +1,102 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+ /* background-image: url(../images/header_bg.jpg);
+  background-color: white;
+  background-size: cover;
+ /* padding-top: 50px;*/*/
+
+
+  
+  
 }
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
+header{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+   background-image: url('../images/header_bg.jpg');
+  background-size: cover;
   height: 500px;
+  padding: 30px 60px;
+
+}
+}
+
+
+h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.top {
+  text-align: center;
+  font-size: 200%;
+ 
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.button {
+  background-size: 300px;
+  background-color: yellow;
+  font-size: 25px;
+  width: 250px;
+  border-radius: 10px;
+  padding:10px 30px;
+  color:#000073;
+  border-color: none;
+  font-weight: bold;
+}
+
+
+.pros {
+  background-color: #f0f0f0;
+  padding:10px 80px;
 
 }
 
-header {
+ul {
+  list-style-type: disc;
+padding: 20px;
+margin: 0;
+text-align: left;
+width: 30em;
 
 }
 
-footer {
+li
+{
+padding-right: 0.6em;
+margin: 3em 0;
+font-size: 
+}
+
+h2{
+  font-size: 30px;
+  padding-top: 50px;
+  color:#0b1a64;
+  font-weight: normal;
+}
+
+.testimonial {
+  background-image: url('../images/testimonial_bg.jpg');
+  background-color: blue;
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+blockquote {
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  font-style: italic;
+  font-weight: normal;
+  color: white;
+}
 
-
-
-
+.inline {
+  color: white;
+  text-align: center;
+}
+ 
