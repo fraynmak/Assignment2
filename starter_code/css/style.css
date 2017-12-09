@@ -1,15 +1,3 @@
-body {
- /* background-image: url(../images/header_bg.jpg);
-  background-color: white;
-  background-size: cover;
- /* padding-top: 50px;*/*/
-
-
-  
-  
-}
-
-
 header{
   color:white;
   font-family: 'Open Sans', sans-serif;
@@ -18,8 +6,6 @@ header{
   background-size: cover;
   height: 500px;
   padding: 30px 60px;
-
-}
 }
 
 
@@ -44,7 +30,7 @@ h1{
   font-size: 25px;
   width: 250px;
   border-radius: 10px;
-  padding:10px 30px;
+  padding:10px 50px;
   color:#000073;
   border-color: none;
   font-weight: bold;
@@ -53,14 +39,20 @@ h1{
 
 .pros {
   background-color: #f0f0f0;
-  padding:10px 80px;
+  padding: 50px;
+  color: grey;
 
+}
+
+.intro{
+  font-size: 20px;
+  font-weight: 100;
 }
 
 ul {
   list-style-type: disc;
 padding: 20px;
-margin: 0;
+margin: 30px;
 text-align: left;
 width: 30em;
 
@@ -69,34 +61,72 @@ width: 30em;
 li
 {
 padding-right: 0.6em;
-margin: 3em 0;
-font-size: 
+margin: 0.6em 0;
+font-size: 20px;
+font-weight: 100;
 }
 
 h2{
   font-size: 30px;
-  padding-top: 50px;
   color:#0b1a64;
   font-weight: normal;
 }
 
-.testimonial {
+#testimonial {
   background-image: url('../images/testimonial_bg.jpg');
   background-color: blue;
+  padding-top: 5px;
+
 
 }
 
 blockquote {
-  font-size: 20px;
-  text-align: center;
+  font-size: 25px;
   width: 50%;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 100;
   color: white;
+  margin: 30px 300px;
+  padding-top: 50px;
 }
 
-.inline {
+.line {
   color: white;
   text-align: center;
+  font-size: 30px;
 }
  
+ .sign {
+  background-color: yellow;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+ }
+
+ .blue-button {
+background-color: #0b1a64;
+color: white;
+width: 250px;
+padding:10px 30px;
+font-size: 20px;
+
+ }
+
+footer {
+  background-color: black;
+  padding-top: 30px;
+  text-align: center;
+}
+ .logo-bottom{
+  color: yellow;
+ }
+
+ .copyright {
+  color: white;
+  font-weight: 100;
+  padding-bottom: 30px;
+ }
+
+img{
+  padding: 10px;
+}
